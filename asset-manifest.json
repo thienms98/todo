@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/grand-magus/todo/static/css/main.53055ac3.css",
+    "main.js": "/grand-magus/todo/static/js/main.46de3b69.js",
+    "static/js/787.63e47474.chunk.js": "/grand-magus/todo/static/js/787.63e47474.chunk.js",
+    "index.html": "/grand-magus/todo/index.html",
+    "main.53055ac3.css.map": "/grand-magus/todo/static/css/main.53055ac3.css.map",
+    "main.46de3b69.js.map": "/grand-magus/todo/static/js/main.46de3b69.js.map",
+    "787.63e47474.chunk.js.map": "/grand-magus/todo/static/js/787.63e47474.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53055ac3.css",
+    "static/js/main.46de3b69.js"
+  ]
+}
