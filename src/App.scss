@@ -1,0 +1,26 @@
+.wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    h1{
+        margin: 0 auto 30px;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .tasks{
+        position: relative;
+    }
+    .active-mark{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: var(--task-height);
+        position: absolute;
+        top: calc(var(--task-height) * var(--i));
+        transition-property: top;
+        transition-delay: 0.1s;
+        transition-duration: 0.3s;
+    }
+}

@@ -1,0 +1,21 @@
+.task{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	height: var(--task-height);
+	border-width: 1px;
+	border-color: transparent;
+
+	.title{
+		flex-grow: 1;
+		transition-property: padding;
+		transition-delay: 0.1s;
+		transition-duration: 0.5s;
+	}
+}
+.task.active{
+	
+	.title{
+		padding-left: 30px;
+	}
+}

@@ -1,0 +1,27 @@
+.btn{
+	height: var(--task-height);
+	padding: 5px 5px;
+	border-width: 1px;
+	border-color: transparent;
+	color: var(--white)
+}
+.btn.md{
+	padding: 7px 10px;
+	font-size: 1.2em;
+}
+.btn.lg{
+	padding: 10px 20px;
+	font-size: 1.5em;
+}
+.btn.primary{
+	background: var(--primary);
+}
+.btn.success{
+	background: var(--success);
+}
+.btn.danger{
+	background: var(--danger);
+}
+.btn.disable{
+	background: var(--disable);
+}
